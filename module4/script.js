@@ -5,18 +5,18 @@ Expected output:
 
 Hello Yaakov
 Good Bye John
-Good Bye Jen
-Good Bye Jason
+Good Bye Jayant
+Good Bye Sakshi
 Hello Paul
-Hello Frank
-Hello Larry
-Hello Paula
-Hello Laura
+Hello Jason
+Hello Neetu
+Hello Manish
+Hello Bharat
 Good Bye Jim
 */
 
 (function() {
-    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    var names = ["Yaakov", "John", "Jayant", "Sakshi", "Paul", "Jason", "Neetu", "Manish", "Bharat", "Jim"];
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
